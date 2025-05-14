@@ -1,7 +1,7 @@
-# Core utilities and package managers
-pip==25.1.1
-setuptools==69.5.1
-wheel==0.42.0
+# Core utilities are handled separately during environment setup
+# Do not specify pip version to avoid upgrade messages
+setuptools>=69.5.1
+wheel>=0.42.0
 
 # Streamlit and UI dependencies
 streamlit==1.32.0
