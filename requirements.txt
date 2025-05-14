@@ -5,7 +5,7 @@ wheel==0.42.0
 
 # Streamlit and UI dependencies
 streamlit==1.32.0
-rich==14.0.0
+rich==13.7.0  # Must be <14 for Streamlit compatibility
 markdown-it-py==3.0.0
 mdurl==0.1.2
 pygments==2.19.1
